@@ -1,0 +1,144 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.smartbooking:seat-booking >--------------------
+[INFO] Building smart-seat-booking 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.4:run (default-cli) > test-compile @ seat-booking >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ seat-booking ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ seat-booking ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ seat-booking ---
+[INFO] skip non existing resourceDirectory /Users/shivamagarwal/Desktop/untitled folder 3/smart-seat-booking/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ seat-booking ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.4:run (default-cli) < test-compile @ seat-booking <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.4:run (default-cli) @ seat-booking ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2026-04-14T13:33:00.459+05:30  INFO 65220 --- [           main] c.smartbooking.SeatBookingApplication    : Starting SeatBookingApplication using Java 25.0.1 with PID 65220 (/Users/shivamagarwal/Desktop/untitled folder 3/smart-seat-booking/backend/target/classes started by shivamagarwal in /Users/shivamagarwal/Desktop/untitled folder 3/smart-seat-booking/backend)
+2026-04-14T13:33:00.460+05:30  INFO 65220 --- [           main] c.smartbooking.SeatBookingApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-04-14T13:33:00.727+05:30  INFO 65220 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-14T13:33:00.753+05:30  INFO 65220 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 7 JPA repository interfaces.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/Users/shivamagarwal/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.19/tomcat-embed-core-10.1.19.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-04-14T13:33:00.972+05:30  INFO 65220 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-14T13:33:00.979+05:30  INFO 65220 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-14T13:33:00.979+05:30  INFO 65220 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-04-14T13:33:01.002+05:30  INFO 65220 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-14T13:33:01.003+05:30  INFO 65220 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 524 ms
+2026-04-14T13:33:01.075+05:30  INFO 65220 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-14T13:33:01.100+05:30  INFO 65220 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-14T13:33:01.115+05:30  INFO 65220 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-14T13:33:01.208+05:30  INFO 65220 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-14T13:33:01.219+05:30  INFO 65220 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-14T13:33:01.440+05:30  INFO 65220 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64c25a62
+2026-04-14T13:33:01.440+05:30  INFO 65220 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-14T13:33:01.475+05:30  WARN 65220 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-14T13:33:01.884+05:30  INFO 65220 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-14T13:33:01.982+05:30  INFO 65220 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-14T13:33:02.299+05:30  WARN 65220 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-14T13:33:02.451+05:30  INFO 65220 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-04-14T13:33:02.455+05:30  INFO 65220 --- [           main] c.smartbooking.SeatBookingApplication    : Started SeatBookingApplication in 2.147 seconds (process running for 2.287)
+Hibernate: select count(*) from batches b1_0
+Hibernate: select count(*) from users u1_0
+Hibernate: select count(*) from users u1_0
+Data Initialization complete: 11 users available.
+2026-04-14T13:33:06.143+05:30  INFO 65220 --- [nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-14T13:33:06.143+05:30  INFO 65220 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-14T13:33:06.145+05:30  INFO 65220 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: select bd1_0.id,bd1_0.date,bd1_0.description from blocked_days bd1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.role,u1_0.squad_id from users u1_0
+Hibernate: select s1_0.id,s1_0.assigned_user_id,s1_0.seat_number,s1_0.type from seats s1_0
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select bd1_0.id,bd1_0.date,bd1_0.description from blocked_days bd1_0
+Hibernate: select s1_0.id,s1_0.assigned_user_id,s1_0.seat_number,s1_0.type from seats s1_0
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.role,u1_0.squad_id from users u1_0
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select b1_0.id,b1_0.booking_date,b1_0.created_at,b1_0.seat_id,b1_0.user_id from bookings b1_0 where b1_0.booking_date between ? and ?
+Hibernate: select s1_0.id,au1_0.id,au1_0.email,au1_0.name,au1_0.role,s2_0.id,s2_0.batch_id,s2_0.name,s1_0.seat_number,s1_0.type from seats s1_0 left join users au1_0 on au1_0.id=s1_0.assigned_user_id left join squads s2_0 on s2_0.id=au1_0.squad_id where s1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.role,s1_0.id,s1_0.batch_id,b1_0.id,b1_0.name,s1_0.name from users u1_0 left join squads s1_0 on s1_0.id=u1_0.squad_id left join batches b1_0 on b1_0.id=s1_0.batch_id where u1_0.id=?
+Hibernate: select b1_0.id,b1_0.booking_date,b1_0.created_at,b1_0.seat_id,b1_0.user_id from bookings b1_0 where b1_0.booking_date between ? and ?
+Hibernate: select s1_0.id,au1_0.id,au1_0.email,au1_0.name,au1_0.role,s2_0.id,s2_0.batch_id,s2_0.name,s1_0.seat_number,s1_0.type from seats s1_0 left join users au1_0 on au1_0.id=s1_0.assigned_user_id left join squads s2_0 on s2_0.id=au1_0.squad_id where s1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.role,s1_0.id,s1_0.batch_id,b1_0.id,b1_0.name,s1_0.name from users u1_0 left join squads s1_0 on s1_0.id=u1_0.squad_id left join batches b1_0 on b1_0.id=s1_0.batch_id where u1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.role,u1_0.squad_id from users u1_0
+Hibernate: select s1_0.id,s1_0.assigned_user_id,s1_0.seat_number,s1_0.type from seats s1_0
+Hibernate: select bd1_0.id,bd1_0.date,bd1_0.description from blocked_days bd1_0
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select bd1_0.id,bd1_0.date,bd1_0.description from blocked_days bd1_0
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.assigned_user_id,s1_0.seat_number,s1_0.type from seats s1_0
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.role,u1_0.squad_id from users u1_0
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select s1_0.id,s1_0.batch_id,b1_0.id,ad1_0.batch_id,ad1_0.day_of_week,b1_0.name,s1_0.name from squads s1_0 join batches b1_0 on b1_0.id=s1_0.batch_id left join batch_schedule ad1_0 on b1_0.id=ad1_0.batch_id where s1_0.id=?
+Hibernate: select b1_0.id,b1_0.booking_date,b1_0.created_at,b1_0.seat_id,b1_0.user_id from bookings b1_0 where b1_0.booking_date between ? and ?
+Hibernate: select s1_0.id,au1_0.id,au1_0.email,au1_0.name,au1_0.role,s2_0.id,s2_0.batch_id,s2_0.name,s1_0.seat_number,s1_0.type from seats s1_0 left join users au1_0 on au1_0.id=s1_0.assigned_user_id left join squads s2_0 on s2_0.id=au1_0.squad_id where s1_0.id=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.role,s1_0.id,s1_0.batch_id,b1_0.id,b1_0.name,s1_0.name from users u1_0 left join squads s1_0 on s1_0.id=u1_0.squad_id left join batches b1_0 on b1_0.id=s1_0.batch_id where u1_0.id=?
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:20 min
+[INFO] Finished at: 2026-04-14T13:35:19+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.4:run (default-cli) on project seat-booking: Process terminated with exit code: 137 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

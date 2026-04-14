@@ -1,0 +1,193 @@
+
+> smart-seat-booking-frontend@0.0.0 dev
+> vite
+
+
+  VITE v4.5.14  ready in 216 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+(node:65215) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+1:32:59 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM1:33:05 PM [vite] hmr update /src/App.jsx
+1:40:23 PM [vite] hmr update /src/App.jsx
+1:45:24 PM [vite] hmr update /src/App.jsx
+1:46:18 PM [vite] hmr update /src/App.jsx
+1:46:39 PM [vite] hmr update /src/App.jsx
+t /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:32:59 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:33:05 PM [vite] hmr update /src/App.jsx
+1:40:23 PM [vite] hmr update /src/App.jsx
+1:45:24 PM [vite] hmr update /src/App.jsx
+1:46:18 PM [vite] hmr update /src/App.jsx
+1:46:39 PM [vite] hmr update /src/App.jsx
+1:46:39 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+1:46:39 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/users:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/blocked-days:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/admin/seats:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:02:44 PM [vite] http proxy error at /api/bookings/daily?date=2026-04-15:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
